@@ -69,7 +69,7 @@ function Render (){
         } else {
             console.log(product);
             console.log(price);
-            UseCustomHookAPI("PUT",formData, putDataAPI).then(res => {
+            UseCustomHookAPI("PATCH",formData, putDataAPI).then(res => {
                 if(res.status === 200) {
                     render()
                 }

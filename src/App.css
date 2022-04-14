@@ -37,6 +37,34 @@ li,ul {
 .popup-editData {
   display: none;
 }
+.submit-form {
+  margin-top: 2rem;
+}
+.submit-form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+}
+.submit-form > div > input {
+  padding: 0.5rem;
+  width: 300px;
+  border-radius: 0.25rem;
+  border: 1px solid gray;
+}
+.submit-form > button {
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 100px;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+}
+.error-mess {
+  color: red;
+  font-size: 0.75rem;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
