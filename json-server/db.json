@@ -1,0 +1,24 @@
+{
+  "covid-dashboard": [
+    {
+      "product": "Điện thoại",
+      "price": 2000,
+      "id": 0
+    },
+    {
+      "product": "IPHONE 13 PRO MAX",
+      "price": 20000,
+      "id": 1
+    },
+    {
+      "product": "Điện thoại",
+      "price": 9000,
+      "id": 5
+    },
+    {
+      "product": "Laptop",
+      "price": 15,
+      "id": 6
+    }
+  ]
+}

@@ -1,7 +1,42 @@
+div {
+  width: 100%;
+}
+li,ul {
+  list-style-type: none;
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
-
+.App > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+.covid-dashboard,
+.covid-handle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.covid-dashboard-list{
+  padding: unset;
+}
+.covid-dashboard-list > li {
+  display: flex;
+  flex-direction: row;
+  
+}
+.popup-creatData,
+.popup-editData {
+  display: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
