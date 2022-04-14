@@ -10,6 +10,7 @@ function ValidateForm() {
             email: "",
             password: "",
             confirmPassword: ""
+            
         },
         onSubmit: values => {
             console.log(values);
